@@ -83,6 +83,7 @@ class MainApp extends StatelessWidget {
      ListView.builder(
       padding: const EdgeInsets.all(8),
       itemCount: 1000001,
+      
       itemBuilder:
       (BuildContext context, int index){
         if(index.isOdd){
